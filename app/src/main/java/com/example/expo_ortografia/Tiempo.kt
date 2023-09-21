@@ -12,7 +12,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 
-private lateinit var home: LinearLayout
+private lateinit var home: ImageView
 private lateinit var lbltiempoTardado: TextView
 private lateinit var fotito:ImageView
 
