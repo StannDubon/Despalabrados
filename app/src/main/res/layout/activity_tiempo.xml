@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebackground"
+    tools:context=".Tiempo">
+
+    <TextView
+        android:id="@+id/lblTiempo"
+        android:layout_width="449dp"
+        android:layout_height="81dp"
+        android:fontFamily="@font/comicy"
+        android:gravity="center"
+        android:text="Se acabó el tiempo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <ImageView
+        android:id="@+id/imageViewHomeTiempo3"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951"
+        app:srcCompat="@drawable/btnstyle1" />
+
+    <TextView
+        android:id="@+id/lblStart3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="VOLVER"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewHomeTiempo3"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHomeTiempo3"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHomeTiempo3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewHomeTiempo3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:background="@drawable/textholder"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="106dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTiempoTardado2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="center"
+                android:text="¡Has tardado un total de:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblTiempoTardado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#FF6262"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblTiempoTardado3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/urbanist"
+                android:gravity="center"
+                android:text="Segundos!"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tiempo_fotito"
+        android:layout_width="347dp"
+        android:layout_height="494dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mistery" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

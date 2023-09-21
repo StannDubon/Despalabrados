@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/preguntaResultClMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebackground"
+    tools:context=".PreguntaResult">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:background="@drawable/textholder"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495">
+
+        <TextView
+            android:id="@+id/preguntaResultLblRespuestaCorrecta"
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/urbanist"
+            android:gravity="bottom"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preguntaResultLblRazon"
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/urbanist"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#E1E1E1"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/preguntaresultfotito"
+        android:layout_width="347dp"
+        android:layout_height="494dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mistery" />
+
+    <TextView
+        android:id="@+id/preguntaResultLblValor"
+        android:layout_width="450dp"
+        android:layout_height="81dp"
+        android:fontFamily="@font/comicy"
+        android:gravity="center"
+        android:text="valor"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewHomeTiempo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageView
+        android:id="@+id/imageViewHomeTiempo2"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951"
+        app:srcCompat="@drawable/btnstyle1" />
+
+    <TextView
+        android:id="@+id/lblStart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="VOLVER"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewHomeTiempo2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHomeTiempo2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHomeTiempo2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewHomeTiempo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
